@@ -1,7 +1,7 @@
 // Wait for the document to be ready
 document.addEventListener('DOMContentLoaded', function () {
   // Create a map instance and set the initial view coordinates and zoom level
-  var map = L.map('map').setView([-23.516239054146933, -46.835314869306885], 13);
+  var map = L.map('map').setView([-23.52026413037824, -46.83670586136634], 13);
 
 
   // Add a tile layer to the map from OpenStreetMap
@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
   // Create a marker with popup and add it to the map
-  var marker = L.marker([-23.516239054146933, -46.835314869306885]), {icon: greenIcon}).addTo(map);
+  var marker = L.marker([-23.52026413037824, -46.83670586136634]), {icon: greenIcon}).addTo(map);
   marker.bindPopup("fofo lindo fofo!").openPopup();
 });
