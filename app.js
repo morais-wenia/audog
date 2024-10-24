@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }).addTo(map);
 
   var greenIcon = L.icon({
-    iconUrl: 'https://br.pinterest.com/pin/535224736979677855/',
+    iconUrl: 'https://www.pngegg.com/pt/png-dkhtg',
  
     iconSize:     [80, 60], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
