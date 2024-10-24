@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
   // Create a marker with popup and add it to the map
-  var marker = L.marker([-23.516239054146933, -46.835314869306885]).addTo(map);
+  var marker = L.marker([-23.516239054146933, -46.835314869306885]), {icon: greenIcon}).addTo(map);
   marker.bindPopup("fofo lindo fofo!").openPopup();
 });
