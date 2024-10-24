@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }).addTo(map);
 
   var greenIcon = L.icon({
-    iconUrl: 'https://www.pngegg.com/pt/png-dkhtg',
+    iconUrl: 'https://e7.pngegg.com/pngimages/761/75/png-clipart-the-dog-will-laugh-animal-corgi.png',
  
     iconSize:     [80, 60], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
